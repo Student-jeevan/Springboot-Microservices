@@ -1,0 +1,22 @@
+# Ignore target folders
+target/
+build/
+
+# IDE folders
+.idea/
+*.iml
+.vscode/
+
+# But allow these folders
+!inventory-service/src/
+!inventory-service/mysql/
+!inventory-service/docker/
+!inventory-service/pom.xml
+
+!Order-Service/src/
+!Order-Service/docker/
+!Order-Service/pom.xml
+
+!product-service/src/
+!product-service/docker/
+!product-service/pom.xml
