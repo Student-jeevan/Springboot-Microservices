@@ -1,4 +1,4 @@
-# Ignore target folders
+# Ignore target and build folders
 target/
 build/
 
@@ -7,16 +7,7 @@ build/
 *.iml
 .vscode/
 
-# But allow these folders
-!inventory-service/src/
-!inventory-service/mysql/
-!inventory-service/docker/
-!inventory-service/pom.xml
-
-!Order-Service/src/
-!Order-Service/docker/
-!Order-Service/pom.xml
-
-!product-service/src/
-!product-service/docker/
-!product-service/pom.xml
+# Allow each service folders
+!inventory-service/
+!Order-Service/
+!product-service/
