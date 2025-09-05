@@ -1,13 +1,14 @@
-# Ignore target and build folders
-target/
-build/
+# Ignore everything by default
+*
 
-# IDE folders
+# Ignore IDE and build artifacts at root
 .idea/
 *.iml
 .vscode/
+target/
+build/
 
-# Allow each service folders
+# Allow microservice folders
 !inventory-service/
 !Order-Service/
 !product-service/
