@@ -1,11 +1,8 @@
-# Ignore build folders and IDE files
-target/
-build/
-.idea/
-.vscode/
-*.iml
+# Ignore everything
+*
 
-# Allow microservice folders
+# But allow the microservices folders
 !inventory-service/
 !Order-Service/
 !product-service/
+**/.idea/
